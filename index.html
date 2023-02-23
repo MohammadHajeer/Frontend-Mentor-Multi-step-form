@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Multi-step form</title>
+
+</head>
+
+<body class="center-flex">
+  <div class="form">
+    <div class="side-bar">
+      <ul class="steps">
+        <li class="step">
+          <a class="center-flex active" href="#">1</a>
+          <div class="text">
+            <p>Step 1</p>
+            <p>your info</p>
+          </div>
+        </li>
+        <li class="step">
+          <a class="center-flex" href="#">2</a>
+          <div class="text">
+            <p>Step 2</p>
+            <p>Select plan</p>
+          </div>
+        </li>
+        <li class="step">
+          <a class="center-flex" href="#">3</a>
+          <div class="text">
+            <p>Step 3</p>
+            <p>Add-ons</p>
+          </div>
+        </li>
+        <li class="step">
+          <a class="center-flex" href="#">4</a>
+          <div class="text">
+            <p>Step 4</p>
+            <p>Summary</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="content step-1">
+      <div class="personal-info">
+        <div class="title">
+          <h1>Personal info</h1>
+          <p>Please provide your name, email address, and phone number.</p>
+        </div>
+        <div class="inputs">
+          <div class="input">
+            <span>Name</span>
+            <input data-match="\w+ \w+\w\b" type="text" placeholder="e.g. Stephen King">
+          </div>
+          <div class="input">
+            <span>Email Address</span>
+            <input data-match="\w+@\w+.com\b" type="text" placeholder="e.g. stephenking@lorem.com">
+          </div>
+          <div class="input">
+            <span>Phone Number</span>
+            <input data-match="\+\d \d{3} \d{3} \d{3}\b" type="text" placeholder="e.g. +1 234 567 890">
+          </div>
+        </div>
+      </div>
+      <div class="link-page">
+        <a class="link-button">Next Step</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="./JavaScript/index.js"></script>
+</body>
+
+</html>

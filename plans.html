@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Frontend Mentor | Multi-step form</title>
+
+</head>
+
+<body class="center-flex">
+    <div class="form">
+        <div class="side-bar">
+            <ul class="steps">
+                <li class="step">
+                    <a class="center-flex" href="#">1</a>
+                    <div class="text">
+                        <p>Step 1</p>
+                        <p>your info</p>
+                    </div>
+                </li>
+                <li class="step">
+                    <a class="center-flex active" href="#">2</a>
+                    <div class="text">
+                        <p>Step 2</p>
+                        <p>Select plan</p>
+                    </div>
+                </li>
+                <li class="step">
+                    <a class="center-flex" href="#">3</a>
+                    <div class="text">
+                        <p>Step 3</p>
+                        <p>Add-ons</p>
+                    </div>
+                </li>
+                <li class="step">
+                    <a class="center-flex" href="#">4</a>
+                    <div class="text">
+                        <p>Step 4</p>
+                        <p>Summary</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="content step-2">
+            <div class="plan-selection">
+                <div class="title">
+                    <h1>Select your plan</h1>
+                    <p>You have the option of monthly or yearly billing.</p>
+                </div>
+                <div class="plans">
+                    <div class="plan active" data-year-offer="2 months free">
+                        <img src="./assets/images/icon-arcade.svg" alt="">
+                        <div class="decription">
+                            <h4>Arcade</h4>
+                            <p data-year="$90/yr" data-month="$9/mo">$9/mo</p>
+                        </div>
+                    </div>
+                    <div class="plan" data-year-offer="2 months free">
+                        <img src="./assets/images/icon-advanced.svg" alt="">
+                        <div class="decription">
+                            <h4>Advanced</h4>
+                            <p data-year="$120/yr" data-month="$12/mo">$12/mo</p>
+                        </div>
+                    </div>
+                    <div class="plan" data-year-offer="2 months free">
+                        <img src="./assets/images/icon-pro.svg" alt="">
+                        <div class="decription">
+                            <h4>Pro</h4>
+                            <p data-year="$150/yr" data-month="$15/mo">$15/mo</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="center-flex plans-switcher">
+                    <span class="monthly active">Monthly</span>
+                    <div>
+                        <input type="checkbox" id="switch" checked>
+                        <label class="switch" for="switch">
+                            <span></span>
+                        </label>
+                    </div>
+                    <span class="yearly">Yearly</span>
+                </div>
+            </div>
+            <div class="link-page">
+                <a class="previous">Go Back</a>
+                <a class="link-button">Next Step</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="./JavaScript/plans.js"></script>
+</body>
+
+</html>

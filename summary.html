@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Frontend Mentor | Multi-step form</title>
+
+</head>
+
+<body class="center-flex">
+    <div class="form">
+        <div class="side-bar">
+            <ul class="steps">
+                <li class="step">
+                    <a class="center-flex" href="#">1</a>
+                    <div class="text">
+                        <p>Step 1</p>
+                        <p>your info</p>
+                    </div>
+                </li>
+                <li class="step">
+                    <a class="center-flex" href="#">2</a>
+                    <div class="text">
+                        <p>Step 2</p>
+                        <p>Select plan</p>
+                    </div>
+                </li>
+                <li class="step">
+                    <a class="center-flex" href="#">3</a>
+                    <div class="text">
+                        <p>Step 3</p>
+                        <p>Add-ons</p>
+                    </div>
+                </li>
+                <li class="step">
+                    <a class="center-flex active" href="#">4</a>
+                    <div class="text">
+                        <p>Step 4</p>
+                        <p>Summary</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="content step-4">
+            <div class="summary">
+                <div class="title">
+                    <h1>Finishing up</h1>
+                    <p>Double-check everything looks OK before confirming.</p>
+                </div>
+                <div class="menu">
+                    <div class="lists">
+                        <div class="plan">
+                            <div class="details">
+                                <h4></h4>
+                                <a href="plans.html">Change</a>
+                            </div>
+                            <span class="price"></span>
+                        </div>
+                        <div class="features"></div>
+                    </div>
+                </div>
+                <div class="total">
+                    <p>Total (per <span>?</span>)</p>
+                    <div class="total-price">
+                        price
+                    </div>
+                </div>
+            </div>
+            <div class="link-page">
+                <a class="previous">Go Back</a>
+                <a class="link-button">Confirm</a>
+            </div>
+        </div>
+    </div>
+
+  <script src="./JavaScript/summary.js"></script>
+</body>
+
+</html>

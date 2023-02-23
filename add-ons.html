@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Frontend Mentor | Multi-step form</title>
+
+</head>
+
+<body class="center-flex">
+    <div class="form">
+        <div class="side-bar">
+            <ul class="steps">
+                <li class="step">
+                    <a class="center-flex" href="#">1</a>
+                    <div class="text">
+                        <p>Step 1</p>
+                        <p>your info</p>
+                    </div>
+                </li>
+                <li class="step">
+                    <a class="center-flex" href="#">2</a>
+                    <div class="text">
+                        <p>Step 2</p>
+                        <p>Select plan</p>
+                    </div>
+                </li>
+                <li class="step">
+                    <a class="center-flex active" href="#">3</a>
+                    <div class="text">
+                        <p>Step 3</p>
+                        <p>Add-ons</p>
+                    </div>
+                </li>
+                <li class="step">
+                    <a class="center-flex" href="#">4</a>
+                    <div class="text">
+                        <p>Step 4</p>
+                        <p>Summary</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="content step-3">
+            <div class="add-ons">
+                <div class="title">
+                    <h1>Pick add-ons</h1>
+                    <p>Add-ons help enhance your gaming experience.</p>
+                </div>
+                <div class="features">
+                    <div class="feature">
+                        <div class="center-flex details">
+                            <input type="checkbox">
+                            <div class="description">
+                                <h4>Online service</h4>
+                                <p>Access to multiplayer games</p>
+                            </div>
+                        </div>
+                        <span class="price-per-time" data-month="+$1/mo" data-year="+$10/yr">+$1/mo</span>
+                    </div>
+                    <div class="feature">
+                        <div class="center-flex details">
+                            <input type="checkbox">
+                            <div class="description">
+                                <h4>Larger storage</h4>
+                                <p>Extra 1TB of cloud save</p>
+                            </div>
+                        </div>
+                        <span class="price-per-time" data-month="+$2/mo" data-year="+$20/yr">+$2/mo</span>
+                    </div>
+                    <div class="feature">
+                        <div class="center-flex details">
+                            <input type="checkbox">
+                            <div class="description">
+                                <h4>Customizable Profile</h4>
+                                <p>Custom theme on your profile</p>
+                            </div>
+                        </div>
+                        <span class="price-per-time" data-month="+$2/mo" data-year="+$20/yr">+$2/mo</span>
+                    </div>
+                </div>
+            </div>
+            <div class="link-page">
+                <a class="previous">Go Back</a>
+                <a class="link-button">Next Step</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="./JavaScript/add-ons.js"></script>
+</body>
+
+</html>
