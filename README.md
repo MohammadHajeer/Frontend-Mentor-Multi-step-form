@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./assets/images/Desktop-version.jpeg)
-![](./assets/images/Mobile-version.png)
+![Desktop](./screenshots/Desktop-Version.jpeg)
+![Mobile](./screenshots/Mobile-Version.png)
 
 
 ### Links
@@ -48,11 +48,14 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - CSS Grid
+- JS LocalStorage
 
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/mohammadhajeer)
+- Website - [Mohammad Hajeer](https://mohammadhajeer.github.io/Portfolio)
+- Frontend Mentor - [@MohammadHajeer](https://www.frontendmentor.io/profile/MohammadHajeer)
+
 
 
 
